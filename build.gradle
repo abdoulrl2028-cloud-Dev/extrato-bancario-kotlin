@@ -1,0 +1,8 @@
+// Root build.gradle (minimal)
+buildscript {
+    repositories { mavenCentral() }
+    dependencies { classpath "com.android.tools.build:gradle:7.4.2" }
+}
+allprojects { repositories { google(); mavenCentral() } }
+
+// Note: use Gradle wrapper in a real project
