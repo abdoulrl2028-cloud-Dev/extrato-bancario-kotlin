@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/abdoulrl2028-cloud-Dev/abdoulrl2028-cloud-Dev/main/assets/projects/extrato.jpg" alt="Extrato bancário em Kotlin" width="100%">
+</p>
+
 # extrato-bancario-kotlin
 
 Projeto exemplo com um app Android (Kotlin/Room/Retrofit) e um servidor Spring Boot mínimo.
