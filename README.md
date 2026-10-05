@@ -1,29 +1,30 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/abdoulrl2028-cloud-Dev/abdoulrl2028-cloud-Dev/main/assets/projects/extrato.jpg" alt="Extrato bancário em Kotlin" width="100%">
+  <img src="https://raw.githubusercontent.com/abdoulrl2028-cloud-Dev/abdoulrl2028-cloud-Dev/main/assets/projects/extrato.jpg" alt="Bank statement app" width="100%">
 </p>
 
-# extrato-bancario-kotlin
+# Bank statement (Kotlin)
 
-Projeto exemplo com um app Android (Kotlin/Room/Retrofit) e um servidor Spring Boot mínimo.
+Sample project with an Android app (Kotlin, Room, Retrofit) and a small Spring Boot server.
 
-Estrutura:
+## Structure
 
-- `app/` - módulo Android com código fonte, Room e Retrofit.
-- `server/` - API Spring Boot que expõe `/transactions` com dados mock.
+- `app/` — Android module with source, Room, and Retrofit
+- `server/` — Spring Boot API that exposes `/transactions` with mock data
 
-Como usar:
+## Run
 
-1. Executar servidor (Java 17 + Maven):
+1. Start the server (Java 17 and Maven):
 
 ```bash
 cd server
 mvn spring-boot:run
 ```
 
-2. Rodar o app Android no emulador (use `10.0.2.2:8080` como `BASE_URL` no `ApiModule`).
+2. Run the Android app on an emulator. Use `10.0.2.2:8080` as `BASE_URL` in `ApiModule`.
 
-Notas:
-- Código é intencionalmente simples e educacional.
-- Ajuste dependências/versões no `app/build.gradle` conforme sua setup.
+## Notes
 
-Licença: MIT (arquivo `LICENSE`)
+- The code is intentionally simple and educational.
+- Adjust dependency versions in `app/build.gradle` for your setup.
+
+License: MIT (`LICENSE`)
